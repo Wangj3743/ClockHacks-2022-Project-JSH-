@@ -1,9 +1,9 @@
 # ClockHacks-2022-Project-JSH-
 
-## Description
+## description
 TBD
 
-## Setup
+## setup
 1. Download the ZIP file from this Github repository
 2. Extract the ZIP file
 3. Go to [chrome://extensions](chrome://extensions)

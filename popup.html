@@ -1,18 +1,60 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-		<script src="popup.js"></script>
-		<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-		<script defer src="https://pyscript.net/latest/pyscript.js"></script>
-	</head>
-	<body>
-		<h1>looks like i did a thing</h1>
-		<p>yessss</p>
-		<button id="button1">Button</button>
+	<html>
+		<head>
+			<link rel="stylesheet" href="style.css">
+			<script src="popup.js"></script>
+			<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+			<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+		</head>
+		<body>
+			<py-script>print("PLEASE WORK")</py-script>
+			<py-script src="pleasework.py"></py-script>
+			<!-- vis to invis -->
+			<div id="vis">
+				<h3>Form</h3>
+				<!-- <label for="username">Username:</label>
+				<input type="text" id="username">
+				<br>
+				<label for="Password">Password:</label>
+				<input type="password" id="password">
+				<br>
+				<label for="assginment_name">Assignemnt Name:</label>
+				<input type="text" id="assignment_name">
+				<br>
+				<label for="assignment_file_path">Assignment File Path:</label>
+				<input type="text" id="assignment_file_path">
+				<br><br>
+				<button id="submit">Submit</button> -->
 
-		<input type="button" id="buttonFunc" class="button1" value="fancy button">
-		<p>times clicked:</p> <div id="clicks">0</div>
-		<py-script> print('Now you can!') </py-script>|
-	</body>
-</html>
+				<label for="username">First name:</label>
+				<input type="text" id="username">
+				<br>
+				<label for="Password">Last name:</label>
+				<input type="text" id="password">
+				<br>
+				<label for="assginment_name">Age:</label>
+				<input type="text" id="assignment_name">
+				<br>
+				<label for="assignment_file_path">Assignment name:</label>
+				<input type="text" id="assignment_file_path">
+				<br><br>
+				<button id="submit">Submit</button>
+
+				<br><br><br>
+			</div>
+
+			
+			<!-- invis to vis -->
+			<div id="invis">
+				<br><br><br>
+				<h2>\/ AUTOMATE! \/</h2>
+				<br>
+				<button id="fancy_Button" class="fancyButton" value="button">Automate!</button>
+				<img src="button.png" class="image">
+			</div>
+
+
+			
+			<h1 class="name"></h1>
+		</body>
+	</html>
