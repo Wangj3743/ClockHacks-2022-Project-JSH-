@@ -1,7 +1,7 @@
 # ClockHacks-2022-Project-JSH-
 
 ## description
-TBD
+A simple Chrome Extension that automates repetitive task on the web!
 
 ## setup
 1. Download the ZIP file from this Github repository

@@ -1,6 +1,6 @@
 {
-	"name": "test extension popup",
-	"description": "popup test",
+	"name": "once",
+	"description": "automate the repetetive tasks on the web",
 	"version": "1.0",
 	"manifest_version": 3,
 	"background": {"service_worker": "background.js"},
