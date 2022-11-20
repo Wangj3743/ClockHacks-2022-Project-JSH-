@@ -11,7 +11,7 @@ A simple Chrome Extension that automates repetitive task on the web!
 5. Press "Load unpacked"
 6. Choose the extracted ZIP file 
 
-## Credit
+## Credits
 Once was created Jim Wang, Shawn Xiao, and Harsh Patel.
 This project was created during Clockhacks 2022 ([clockhacks.ca](https://clockhacks.ca), [Devpost page](https://clockhacks.devpost.com)).
 Here is our [devpost page](https://devpost.com/software/autimeation) for the project
